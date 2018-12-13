@@ -23,3 +23,11 @@ void photo_led_off(int x){
   digitalWrite(led_pin[x-1],LOW);
   
 }
+
+void photo_led_loop(){
+  int led_pin[8] = {53,51,49,47,45,39,37,35};
+  for (int i=0;i<8;i++){
+	digitalWrite(led_pin[i],HIGH);
+	digitalWrite(led_pin[i-1],LOW);
+	delay(1000); 
+}

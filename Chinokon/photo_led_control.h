@@ -5,5 +5,6 @@
 void photo_led_set();
 void photo_led_on(int);
 void photo_led_off(int);
+void photo_led_loop();
 
 #endif

@@ -4,6 +4,7 @@
 
 void nanaseg_led_set();
 void nanaseg_led_on(int);
+void nanaseg_led_loop();
 
 
 #endif
